@@ -1,5 +1,5 @@
-# SubWallet-Chain
-**This is the repository to integrate, contain all information about projects/chains/assets available on SubWallet's products.** <br>
+# BilliWallet-Chain
+**This is the repository to integrate, contain all information about projects/chains/assets available on BilliWallet's products.** <br>
 
 ## Scope of this project
 - Provide a coherent schema and interfaces for projects/chains/assets across blockchains
