@@ -1,12 +1,12 @@
 {
-  "author": "NamPC <nampham@subwallet.app>",
-  "bugs": "https://github.com/Koniverse/SubWallet-Chain/issues",
-  "homepage": "https://github.com/Koniverse/SubWallet-Chain#readme",
+  "author": "ConstanceEtin <constancejco@gmail.com>",
+  "bugs": "https://github.com/Jonstance/BilliWallet-ChainList/pulls",
+  "homepage": "https://github.com/Jonstance/BilliWallet-ChainList/blob/master/README.md",
   "license": "Apache-2.0",
   "packageManager": "yarn@3.2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Koniverse/SubWallet-Chain.git"
+    "url": "https://github.com/Jonstance/BilliWallet-ChainList.git"
   },
   "sideEffects": false,
   "type": "module",

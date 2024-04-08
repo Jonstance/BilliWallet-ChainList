@@ -1397,9 +1397,7 @@
     "priceId": "hydradx",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
-    "metadata": {
-      "assetId": "0"
-    },
+    "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-native-hdx.png"
@@ -5253,6 +5251,22 @@
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/binance-erc20-cake-0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
   },
+  "binance-ERC20-Bcat-0x47a9B109Cfb8f89D16e8B34036150eE112572435": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-Bcat-0x47a9B109Cfb8f89D16e8B34036150eE112572435",
+    "name": "Billicat Token",
+    "symbol": "BCAT",
+    "decimals": 18,
+    "priceId": "billicat",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x47a9B109Cfb8f89D16e8B34036150eE112572435"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://i.ibb.co/QnJRqNc/billicat.png"
+  },
   "binance-ERC20-BTCB-0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c": {
     "originChain": "binance",
     "slug": "binance-ERC20-BTCB-0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
@@ -7536,7 +7550,7 @@
         "Token2": "9"
       }
     },
-    "multiChainAsset": "BNCS-InscriptionToken",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/bifrost_dot-local-bncs.png"
   },
@@ -8052,25 +8066,9 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "30",
-      "autoEnable": true,
-      "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 30
-              }
-            ]
-          }
-        }
-      }
+      "assetId": "30"
     },
-    "multiChainAsset": "DED-DED",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-ded.png"
   },
@@ -8255,104 +8253,5 @@
     "multiChainAsset": "RMRK-RMRKApp",
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/astarevm-erc20-rmrk-0x524d524b4c9366be706d3a90dcf70076ca037ae3.png"
-  },
-  "hydradx_main-LOCAL-DED": {
-    "originChain": "hydradx_main",
-    "slug": "hydradx_main-LOCAL-DED",
-    "name": "DED",
-    "symbol": "DED",
-    "decimals": 10,
-    "priceId": null,
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "1000019",
-      "autoEnable": true,
-      "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 30
-              }
-            ]
-          }
-        }
-      }
-    },
-    "multiChainAsset": "DED-DED",
-    "hasValue": true,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-ded.png"
-  },
-  "xlayer-NATIVE-OKB": {
-    "originChain": "xlayer",
-    "slug": "xlayer-NATIVE-OKB",
-    "name": "X Layer",
-    "symbol": "OKB",
-    "decimals": 18,
-    "priceId": "okb",
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/xlayer-native-okb.png"
-  },
-  "astarZkEvm-ERC20-ASTR-0xdf41220C7e322bFEF933D85D01821ad277f90172": {
-    "originChain": "astarZkEvm",
-    "slug": "astarZkEvm-ERC20-ASTR-0xdf41220C7e322bFEF933D85D01821ad277f90172",
-    "name": "Astar",
-    "symbol": "ASTR",
-    "decimals": 18,
-    "priceId": "astar",
-    "minAmount": "0",
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0xdf41220C7e322bFEF933D85D01821ad277f90172"
-    },
-    "multiChainAsset": "ASTR-Astar",
-    "hasValue": true,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/astarzkevm-erc20-astr-0xdf41220c7e322bfef933d85d01821ad277f90172.png"
-  },
-  "statemint-LOCAL-DOTA": {
-    "originChain": "statemint",
-    "slug": "statemint-LOCAL-DOTA",
-    "name": "DOTA",
-    "symbol": "DOTA",
-    "decimals": 4,
-    "priceId": null,
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "18"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-dota.png"
-  },
-  "moonbeam-LOCAL-xcBNCS": {
-    "originChain": "moonbeam",
-    "slug": "moonbeam-LOCAL-xcBNCS",
-    "name": "BNCS Inscription Token",
-    "symbol": "xcBNCS",
-    "decimals": 12,
-    "priceId": null,
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "142155548796783636521833385094843759961",
-      "assetType": "ForeignAsset",
-      "contractAddress": "0xfFfffffF6aF229AE7f0F4e0188157e189a487D59"
-    },
-    "multiChainAsset": "BNCS-InscriptionToken",
-    "hasValue": true,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-local-xcbncs.png"
   }
 }

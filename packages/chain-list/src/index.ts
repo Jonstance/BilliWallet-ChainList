@@ -43,6 +43,7 @@ export enum COMMON_ASSETS {
   ETH_SEPOLIA = 'sepolia_ethereum-NATIVE-ETH',
   PDOT = 'chainflip_dot-NATIVE-pDOT',
   HDX = 'hydradx_main-NATIVE-HDX',
+  BCAT = "binance-ERC20-Bcat-0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
   USDC_ETHEREUM = 'ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
   USDC_SEPOLIA = 'sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238',
   HDX_TESTNET = 'hydradx_rococo-NATIVE-HDX',
