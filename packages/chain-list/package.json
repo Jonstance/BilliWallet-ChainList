@@ -9,7 +9,7 @@
   "homepage": "https://github.com/Koniverse/SubWallet-Chain/tree/master/packages/chain-list#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@billiwalletnew/chain-list",
+  "name": "@billiwallet/chain-list",
   "repository": {
     "directory": "packages/chain-list",
     "type": "git",
